@@ -4,7 +4,7 @@ fake = Faker()
 fake.seed(466203)
 
 
-filename = "fake_data.csv"
+filename = 'fake_data.csv'
 
 columns = ['First Name', 'Last Name', 'Address', 'Phone Number']
 rows = []
