@@ -7,10 +7,9 @@ fake.seed(466203)
 filename = "fake_data.csv"
 
 columns = ['First Name', 'Last Name', 'Address', 'Phone Number']
-
 rows = []
 
-for i in range(999):
+for i in range(1000):
     newRow = []
     firstName = fake.first_name()
     lastName = fake.last_name()
@@ -31,6 +30,7 @@ with open (filename, 'w') as csvfile:
     csvwriter.writerow(columns) 
 
     csvwriter.writerows(rows) 
+
 
 
 
