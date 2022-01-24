@@ -10,7 +10,7 @@ columns = ['First Name', 'Last Name', 'Address', 'Phone Number']
 
 rows = []
 
-for i in range(1000):
+for i in range(999):
     newRow = []
     firstName = fake.first_name()
     lastName = fake.last_name()
