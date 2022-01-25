@@ -1,8 +1,8 @@
 from faker import Faker
 import csv
 fake = Faker()
-fake.seed(466203)
-
+#fake.seed(466203)
+Faker.seed(466203)
 
 filename = 'fake_data.csv'
 
